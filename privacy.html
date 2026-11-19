@@ -9,26 +9,26 @@
 <body>
 <main>
 <h1>Informativa sulla privacy</h1>
-<p class="nota">Sam Contatti · ultimo aggiornamento: 17 novembre 2026</p>
+<p class="nota">Sam Contatti · ultimo aggiornamento: 19 novembre 2026</p>
 
 <h2>A chi si rivolge</h2>
 <p>Sam Contatti è un'applicazione per uso personale. La usa soltanto il proprietario dell'account Google a cui è collegata, sul proprio computer. Non viene offerta né distribuita ad altre persone.</p>
 
 <h2>Quali dati usa</h2>
 <p><strong>Rubrica.</strong> L'applicazione accede alla rubrica dell'account Google del proprietario attraverso la Google People API, con l'autorizzazione <code>contacts</code>. Legge i dati salvati nei contatti: nomi e soprannomi, organizzazioni, indirizzi email, numeri di telefono, indirizzi e date di compleanno. L'unica modifica che fa è aggiungere un indirizzo email a un contatto già esistente, e solo dopo che il proprietario l'ha confermata. Non crea né cancella contatti.</p>
-<p><strong>Posta.</strong> L'applicazione accede alla posta dello stesso account attraverso la Gmail API, con l'autorizzazione <code>gmail.readonly</code>, cioè in sola lettura. Legge mittenti, destinatari e date delle email per costruire l'elenco delle persone con cui il proprietario ha scambiato messaggi; per ciascuna persona legge i messaggi scambiati per ricavarne una breve scheda: chi è, che rapporto ha con il proprietario, di cosa si sono scritti. Non invia, non modifica e non cancella email, e non accede ad altri dati dell'account.</p>
+<p><strong>Posta.</strong> Dal 17 al 19 novembre 2026 l'applicazione ha avuto accesso anche alla posta dello stesso account, attraverso la Gmail API, con l'autorizzazione <code>gmail.readonly</code>, cioè in sola lettura. L'ha usata una volta sola, per costruire l'elenco delle persone con cui il proprietario ha scambiato messaggi e, per ciascuna, una breve scheda: chi è, che rapporto ha con il proprietario, di cosa si sono scritti. Non ha inviato, modificato o cancellato email. Il 19 novembre 2026 quell'autorizzazione è stata tolta: oggi l'applicazione non accede alla posta.</p>
 
 <h2>Come li usa</h2>
-<p>La rubrica viene letta quando il proprietario fa una domanda al suo assistente personale, per esempio per trovare un numero di telefono, un indirizzo o un compleanno. La posta viene letta quando il proprietario chiede di aggiornare l'elenco e le schede delle persone. L'assistente è basato su Claude di Anthropic: i dati che servono a rispondere o a preparare le schede vengono quindi elaborati anche dai servizi di Anthropic. Dalle schede restano fuori i contenuti delicati dei messaggi, come salute, questioni economiche o legali, e i recapiti presi dalle firme. L'applicazione non usa i dati per pubblicità, profilazione o altri scopi.</p>
+<p>La rubrica viene letta quando il proprietario fa una domanda al suo assistente personale, per esempio per trovare un numero di telefono, un indirizzo o un compleanno. L'assistente è basato su Claude di Anthropic: i dati che servono a rispondere, e quelli che sono serviti a preparare le schede, vengono quindi elaborati anche dai servizi di Anthropic. Dalle schede sono rimasti fuori i contenuti delicati dei messaggi, come salute, questioni economiche o legali, e i recapiti presi dalle firme. L'applicazione non usa i dati per pubblicità, profilazione o altri scopi.</p>
 
 <h2>Cosa conserva</h2>
-<p>L'applicazione non tiene copie della rubrica né della posta. Sul computer del proprietario, insieme agli altri dati del suo assistente personale e nel loro backup cifrato, conserva l'elenco delle persone e le loro schede: nomi, indirizzi email, date dei contatti e le brevi note descritte sopra. Il testo dei messaggi serve solo durante la preparazione delle schede: sta in una cartella temporanea, fuori dal backup, e viene cancellato subito dopo. Conserva inoltre il token di autorizzazione rilasciato da Google, in un file leggibile soltanto dall'utente del proprietario.</p>
+<p>L'applicazione non tiene copie della rubrica né della posta. Sul computer del proprietario, insieme agli altri dati del suo assistente personale e nel loro backup cifrato, conserva l'elenco delle persone e le loro schede: nomi, indirizzi email, date dei contatti e le brevi note descritte sopra. Il testo dei messaggi è servito solo durante la preparazione delle schede: è stato tenuto in una cartella temporanea, fuori dal backup, ed è stato cancellato subito dopo. Conserva inoltre il token di autorizzazione rilasciato da Google, in un file leggibile soltanto dall'utente del proprietario.</p>
 
 <h2>Condivisione</h2>
 <p>Oltre a quanto descritto sopra, i dati non vengono venduti, ceduti o comunicati a nessuno.</p>
 
 <h2>Revoca dell'accesso</h2>
-<p>Il proprietario può revocare l'accesso in qualsiasi momento dalla pagina <a href="https://myaccount.google.com/permissions">Accesso di terze parti</a> del suo account Google. Dopo la revoca l'applicazione non può più accedere né alla rubrica né alla posta. Su richiesta del proprietario, l'elenco e le schede delle persone vengono cancellati dal suo computer.</p>
+<p>Il proprietario può revocare l'accesso in qualsiasi momento dalla pagina <a href="https://myaccount.google.com/permissions">Accesso di terze parti</a> del suo account Google. Dopo la revoca l'applicazione non può più accedere alla rubrica. Su richiesta del proprietario, l'elenco e le schede delle persone vengono cancellati dal suo computer.</p>
 </main>
 </body>
 </html>
